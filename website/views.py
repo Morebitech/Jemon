@@ -32,4 +32,4 @@ def main_blog(request):
 
 
 def contact_us(request):
-    return render(request, 'website/index.html')
+    return render(request, 'website/page-contact.html')

@@ -1,5 +1,5 @@
 body {
-  background: #fafafa;
+  background: #FFFFFF;
   color: #333333;
   margin-top: 5rem;
 }
@@ -37,7 +37,7 @@ ul {
 }
 
 .article-title {
-  color: #444444;
+  color: #000000;
 }
 
 a.article-title:hover {

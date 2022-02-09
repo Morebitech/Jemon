@@ -99,54 +99,48 @@
                     "
                   >
                     <li>
-                      <a href="{% static 'portfolio' %}">Home</a>
+                      <a href="{% url 'website:our-services' %}">Our Services</a>
                       <!-- <ul class="sub-menu">
                                             <li><a href="{% static 'index.html' %}">Homepage 1</a></li>
                                             <li><a href="{% static 'home' %}">Homepage 2</a></li>
                                             <li><a href="{% static 'home' %}">Homepage 3</a></li>
                                         </ul> -->
                     </li>
-                    <li class="has-dropdown">
-                      <a href="#">Pages</a>
-                      <ul class="sub-menu">
-                        <li><a href="{% static 'about-us' %}">About Us</a></li>
-                        <li><a href="{% static 'our-team' %}">Our Team</a></li>
-                        <li>
-                          <a href="{% static 'our-services' %}">Our Services</a>
-                        </li>
-                        <li><a href="{% url 'core:shop' %}">Shop</a></li>
-                        <li>
-                          <a href="{% static 'page-careers.html' %}">Careers</a>
-                        </li>
-                        <li>
-                          <a href="{% static 'page-testimonial.html' %}"
-                            >Client’s Opinions</a
-                          >
-                        </li>
-                        <li>
-                          <a href="{% static 'page-contact.html' %}"
-                            >Contact Us</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li><a href="{% static 'portfolio' %}">Portfolio</a></li>
 
-                    <li class="has-dropdown">
-                      <a href="#">Blog</a>
-                      <ul class="sub-menu">
-                        <li>
-                          <a href="{% static 'blog-grid.html' %}"
-                            >Grid Layout</a
-                          >
-                        </li>
-                        <!--                                            <li><a href="{% static 'blog-list.html' %}">list Layout</a></li>-->
-                        <!--                                            <li><a href="{% static 'blog-classic.html' %}">classic Layout</a></li>-->
-                        <!--                                            <li><a href="{% static 'blog-single.html' %}">single Layout</a></li>-->
-                      </ul>
+                    <li><a href="{% url 'core:shop' %}">Shop</a></li>
+
+                    <li class="has-dropdow">
+                      <a href="{% url 'blog:blog-home' %}">Blog</a>
+<!--                      <ul class="sub-menu">-->
+<!--                        <li>-->
+<!--                          <a href="{% static 'blog-grid.html' %}"-->
+<!--                            >Grid Layout</a-->
+<!--                          >-->
+<!--                        </li>-->
+<!--                        &lt;!&ndash;                                            <li><a href="{% static 'blog-list.html' %}">list Layout</a></li>&ndash;&gt;-->
+<!--                        &lt;!&ndash;                                            <li><a href="{% static 'blog-classic.html' %}">classic Layout</a></li>&ndash;&gt;-->
+<!--                        &lt;!&ndash;                                            <li><a href="{% static 'blog-single.html' %}">single Layout</a></li>&ndash;&gt;-->
+<!--                      </ul>-->
                     </li>
                     <li>
-                      <a href="{% static 'page-contact.html' %}">Contact Us</a>
+                      <a href="{% url 'website:contact-us' %}">Contact Us</a>
+                    </li>
+                         <li class="has-dropdown">
+                      <a href="#">More</a>
+                      <ul class="sub-menu">
+                        <li><a href="{% url 'website:about-us' %}">About Us</a></li>
+                        <li><a href="{% url 'website:our-team' %}">Our Team</a></li>
+<!--                        <li>-->
+<!--                          <a href="{% url 'website:our-services' %}">Our Services</a>-->
+<!--                        </li>-->
+<!--                        <li><a href="{% url 'core:shop' %}">Shop</a></li>-->
+
+<!--                        <li>-->
+<!--                          <a href="{% url 'website:contact-us' %}"-->
+<!--                            >Contact Us</a-->
+<!--                          >-->
+<!--                        </li>-->
+                      </ul>
                     </li>
                   </ul>
                 </div>

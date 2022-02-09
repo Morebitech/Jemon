@@ -6,12 +6,12 @@ app_name = 'website'
 urlpatterns = [
     path('', index, name='index'),
     path('home/', main_home, name='home'),
-    path('about_us/', about_us, name='about-us'),
+    path('about-us/', about_us, name='about-us'),
     path('our-team/', our_team, name='our-team'),
     path('our-services/', our_services, name='our-services'),
     path('portfolio/', portfolio, name='portfolio'),
     path('main-blog/', main_blog, name='main-blog'),
-    path('main-blog/', contact_us, name='main-blog'),
+    path('contact-us/', contact_us, name='contact-us'),
     # path('about/', about, name='blog-about'),
 
 ]
