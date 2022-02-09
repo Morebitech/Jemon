@@ -6,3 +6,4 @@ BLOG
 
 Clients will be able to purchase Jemon merchendise.
 Blog will have Jemon trending
+
